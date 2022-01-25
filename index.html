@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Complete Bootstrap 4 Website Layout</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/all.js"></script>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <header class="bg-light" style="position:relative; width:100%; z-index:1;">
+            <div class="row text-white">
+                <div class="col-md-6 col-9 p-3 pl-5">
+                <h2><img src="images/logo.png" alt=""></h2>
+                </div>
+                <div class="col-md-6 col-3 " >
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-secondary" href="#Home-section">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#service-section">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#Experiences-section">services</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#contact me-section">team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#contact me-section">connect</a>
+                            </li>
+                    </ul>
+                </div>
+                </nav>
+                        </div>
+                    </div>
+                    </header>
+
+        <!--- Image Slider -->
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators"> 
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/background1.jpg" alt="First slide" >
+              </div>
+              <div class="carousel-caption">
+                <h1>BOOTSTRAP</h1>
+                <h3>Complete Website Layout</h3>
+                <button  type="button" class="btn  ">VIEW DEMO</button>
+                <button type="button" class="btn btn-primary">get started</button>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/background2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/background3.jpg" alt="Third slide">
+              </div> 
+               
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+         <!--- Welcome Section -->
+         <div class="welcome">
+            <h1 class="text-center font-weight-normal">Bulit in ease</h1>
+            <hr>
+            <h6 class="text-center font-weight-bold"> To bootstrap 4 Website tutorial bootstarp is a free and open-source front-end library with HTML and CSS based designs</h6>
+         </div>
+
+        <!--- Three Column Section -->
+        <div class="column">
+          <div class="row">
+            <div class="col-md-4">
+                  <div class=" text-center p-3">
+                    <i class="fas fa-code"  class="card-img-top text-info " alt="..."style="width: 90px;"></i>
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">HTML 5</h5>
+                      <p class=" text-center">Bulit with the latest version of HTMl,HTML5</p>
+                    </div>
+                </div>
+                 </div>
+                 <div class="col-md-4">
+                  <div class=" text-center p-3">
+                    <img src="images/download.png" class="card-img-top text-info " alt="..."style="width: 120px;">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">BOOTSTRAP</h5>
+                      <p class=" text-center">Bulit with the latest bootstrap4</p>
+                    </div>
+                </div>
+                 </div>
+                 <div class="col-md-4">
+                  <div class=" text-center p-3">
+                    <img src="images/download.png" class="card-img-top text-info " alt="..."style="width: 120px;">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">CSS3</h5>
+                      <p class=" text-center">Bulit with the latest version of css,css3</p>
+                    </div>
+                </div>
+                 </div>
+            </div>
+         </div>
+         <hr>
+
+        <!--- Two Column Section -->
+        <section id="Home-section" >
+          <div class="container">
+      <div class="row ">
+      <div class="col-md-6">
+          <h3 class="pt-4 font-weight-bold"> if you build it...</h3>
+          <p class="font-weight-bold">"Be thankful for the hard times for they have made you "</p>
+         <p class="font-weight-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Quo aut totam animi providenttenetur sit doloremque nostrum 
+            error consequatu</p>
+            <p class="font-weight-bold"> sit amet consectetur adipisicing elit.
+              Quo aut totam animi provident tenetur sit doloremque </p>
+            <button type="button" class="btn btn-primary">learn more</button>
+      </div>
+      <div class="col-md-6">
+        <img src="images/desk.png"  alt="" style="width: 100%;">
+    </div>
+      </div>
+      </div>
+     
+    </div>
+  </section>
+  <hr>
+
+        <!--- Meet the team -->
+        <section class=" p-5" id="service-section" >
+          <div class="container">
+          <h1 class="text-center">Meet the Team</h1>
+          <hr class="team" style="width: 50%; border-top: 2px solid #b4b4b4; margin-top: 0.3rem;margin-bottom: 1rem;">
+              <div class="row">
+              <div class="col-md-4">
+                  
+          <img src="images/team1.png" class="card-img-top text-info " alt="..."style="width: 100%;">
+          <div class="card p-3">
+          <div class="card-body">
+          <h5 class="card-title">John Done</h5>
+          <p class="card-text  font-weight-bold">Some quick example text to build on the card title and make </p>
+          <button type="button" class="btn border border-color-text-secondary" style="color: #b4b4b4; background-color: #fff;">see profile</button>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-4">    
+            <img src="images/team2.png" class="card-img-top text-info " alt="..."style="width: 100%;">
+            <div class="card p-3">
+            <div class="card-body">
+            <h5 class="card-title">Mary JO</h5>
+            <p class="card-text font-weight-bold">Some quick example text to build on the card title and make </p>
+            <button type="button" class="btn  border border-color-secondary" style="color: #b4b4b4; background-color: #fff;">see profile</button>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                  
+              <img src="images/team3.png" class="card-img-top text-info " alt="..."style="width: 100%;">
+              <div class="card p-3">
+              <div class="card-body">
+              <h5 class="card-title">phil Ho</h5>
+              <p class="card-text font-weight-bold">phil is a developr with over 5 year od webmake </p>
+              <button type="button" class="btn border border-color-text-secondary" style="color: #b4b4b4;background-color: #ffff;">see profile</button>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+         </section>
+
+        <!--- Cards -->
+
+        <!--- Two Column Section -->
+        <section id="colum-section" >
+          <div class="container">
+      <div class="row ">
+      <div class="col-md-6">
+          <h3 class="pt-4 font-weight-bold"> Our philosophy</h3>
+          <p class="font-weight-bold">Be thankful for the hard times for they have made you </p>
+         <p class="font-weight-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Quo aut totam animi providenttenetur sit doloremque nostrum 
+            error consequatu</p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/background4.jpg"  alt="" style="width:100%;">
+    </div>
+      </div>
+      </div>
+     
+    </div>
+  </section>
+  <hr>
+
+        <!--- Connect -->
+        <div class="connect text-center py-3 ">
+          <div class="continer">
+              <h4 class="">connect</h>
+                <br><br>
+             <div class="socilal">
+             <a class="mr-5 " href=""><i class="fab fa-instagram"></i></a> 
+             <a class="mr-5" href=""><i  class="fab fa-facebook"></i></a> 
+             <a class="mr-5" href=""><i  class="fab fa-youtube"></i></a>
+              <a class="mr-5" href=""><i   class="fab fa-twitter"></i></a>
+             </div>
+          </div>
+        </div>
+
+         <!--- Footer -->
+         <footer id="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center text-white">
+                        <p>@bootstrap practice</p>
+                    </div>
+                </div>
+            </div>   
+         </footer>
+         <script src="https://kit.fontawesome.com/4f7f0e7aa6.js"></script>
+    </body>
+</html>
